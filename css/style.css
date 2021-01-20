@@ -27,6 +27,7 @@ h2 {
     font-size: 24px;
     color: darkslategray;
     text-align: center;
+    padding: 10px;
 }
 
 
@@ -59,12 +60,14 @@ ul {
 
 li {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: top right;
+    padding: 15px;
+    
 }
 
 .logo {
     width: 23%;
-    padding: 0%;
+    padding-top: 5px;
     text-align: center;
     color:darkslategray;
 }
@@ -92,6 +95,7 @@ button {
     border-color: darkslategray;
     font-family: 'Raleway', sans-serif;
     font-weight: 0,400;
+    align-items:center
 }
 .navigation {
     background-color: white;
@@ -102,6 +106,7 @@ button {
     margin-left: auto;
     position:relative;
     align:right;
+    padding: 15px;
 }
 
 <!--  My UX Skills section coded using CSS flex -->
