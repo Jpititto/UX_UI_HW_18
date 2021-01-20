@@ -1,0 +1,91 @@
+
+body {
+
+/* BACKGROUND IMAGE
+    background: url(../images/hero_web.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 70%;
+*/
+    background-color: paleturquoise;
+  }
+
+p {
+    font-family: utopia-std-headline,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 34px;
+    color: darkslategray;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 23%;
+    padding: 0%;
+    text-align: center;
+    color:darkslategray;
+}
+
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: darkslategray;
+    width: 73%;
+    padding: %;
+}
+
+ul {
+    width: 50%;
+    margin-left: auto;
+    padding: 0%;
+}
+
+section .heroImg {
+    height: 600px;
+    padding: 25px;
+}
+
+button {
+    padding: 10px;
+    background-color: white;
+    color: darkslategray;
+    border-radius: 2px;
+    border-color: darkslategray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+
+}
+.navigation {
+    background-color: white;
+    box-shadow:3px 5px 13px lightgray;
+}
+.content {
+    width: 300px;
+    margin: 0 auto;
+    position:relative;
+    align:right;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: smaller;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.8025483630952381) 50%, rgba(255,255,255,0) 100%);
+    background-size: 1%;
+    color: darkslategray;
+}
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+    padding: 2%;
+}
