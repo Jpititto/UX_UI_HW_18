@@ -1,26 +1,59 @@
 
 body {
 
-/* BACKGROUND IMAGE
+/* BACKGROUND IMAGE */
     background: url(../images/hero_web.png);
     background-repeat: no-repeat;
-    background-position: bottom left;
+    background-position: top left;
     background-size: 70%;
-*/
+    background-position-y: 75px ;
+
     background-color: paleturquoise;
   }
 
-p {
+h1 {
     font-family: utopia-std-headline,serif;
     font-weight: 400;
     font-style: normal;
     font-size: 34px;
     color: darkslategray;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 0,700;
+    font-size: 24px;
+    color: darkslategray;
+    text-align: center;
+}
+
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 1,400;
+    font-size: 24px;
+    color: darkslategray;
+    text-align: center;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 0.400;
+    font-size: 18px;
+    color: darkslategray;
+    text-align: center;
 }
 
 .inline-block {
     display: inline-block;
     vertical-align: top;
+}
+
+ul {
+    width: 50%;
+    margin-left: auto;
+    padding: 0%;
 }
 
 li {
@@ -36,18 +69,14 @@ li {
 }
 
 nav {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 0,400;
+    font-size: 18px;
     color: darkslategray;
     width: 73%;
     padding: %;
 }
 
-ul {
-    width: 50%;
-    margin-left: auto;
-    padding: 0%;
-}
 
 section .heroImg {
     height: 600px;
@@ -55,14 +84,13 @@ section .heroImg {
 }
 
 button {
-    padding: 10px;
+    padding: 15px;
     background-color: white;
     color: darkslategray;
     border-radius: 2px;
     border-color: darkslategray;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-
+    font-family: 'Raleway', sans-serif;
+    font-weight: 0,400;
 }
 .navigation {
     background-color: white;
@@ -70,15 +98,41 @@ button {
 }
 .content {
     width: 300px;
-    margin: 0 auto;
+    margin-left: auto;
     position:relative;
     align:right;
 }
 
+<!--  My UX Skills section coded using CSS flex -->
+.mySkills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flexContainer img {
+    width: 100px;
+    justify-content: center;
+}
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flexContainer div {
+    width: 30%;
+    margin: 25px;
+    padding: 15px;
+}
+
+
+
+
+
 footer {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 200;
-    font-size: smaller;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 0,400;
+    font-size: 18px;
+    color: darkslategray;
     background: rgb(255,255,255);
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.8025483630952381) 50%, rgba(255,255,255,0) 100%);
     background-size: 1%;
