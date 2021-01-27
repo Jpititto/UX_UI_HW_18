@@ -4,18 +4,23 @@ body {
 /* BACKGROUND IMAGE */
     background: url(../images/hero_web.png);
     background-repeat: no-repeat;
-    background-position: top left;
-    background-size: 50%;
+    background-position: bottom left;
+    background-size: 70%;
     background-position-y: 75px ;
-
+    
     background-color: paleturquoise;
   }
+
+.mySkills {
+    background-color: #FCDBD5;
+    width: 100%;
+}
 
 h1 {
     font-family: utopia-std-headline,serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 34px;
+    font-size: 25px;
     color: darkslategray;
     text-align: center;
     padding: 10px;
@@ -25,7 +30,7 @@ h2 {
     font-family: 'Raleway', sans-serif;
     font-weight: 0,700;
     font-size: 24px;
-    color: darkslategray;
+    color: black;
     text-align: center;
     padding: 10px;
 }
@@ -34,16 +39,24 @@ h2 {
 h3 {
     font-family: 'Raleway', sans-serif;
     font-weight: 1,400;
-    font-size: 24px;
-    color: darkslategray;
+    font-size: 16px;
+    color: black;
     text-align: center;
 }
 
 p {
     font-family: 'Raleway', sans-serif;
     font-weight: 0.400;
-    font-size: 18px;
-    color: darkslategray;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+
+p2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 0.400;
+    font-size: 14px;
+    color: black;
     text-align: center;
 }
 
@@ -76,38 +89,42 @@ nav {
     font-family: 'Raleway', sans-serif;
     font-weight: 0,400;
     font-size: 18px;
-    color: darkslategray;
+    color: Black;
     width: 73%;
-    padding: %;
 }
 
 
 section .heroImg {
     height: 600px;
     padding: 25px;
+    margin-top: 20px;
+    
 }
 
 button {
-    padding: 15px;
+    padding: 15px 60px;
     background-color: white;
-    color: darkslategray;
+    color: black;
     border-radius: 2px;
-    border-color: darkslategray;
+    border-color: black;
     font-family: 'Raleway', sans-serif;
     font-weight: 0,400;
     align-items:center
 }
-.navigation {
-    background-color: white;
-    box-shadow:3px 5px 13px lightgray;
-}
 .content {
     width: 300px;
     margin-left: auto;
-    position:relative;
     align:right;
     padding: 15px;
 }
+.navigation {
+    background-color: white;
+    box-shadow:3px 5px 13px lightgray;
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
 
 <!--  My UX Skills section coded using CSS flex -->
 .mySkills {
@@ -127,7 +144,7 @@ button {
 .flexContainer div {
     width: 30%;
     margin: 25px;
-    padding: 15px;
+    padding: 5px;
 }
 
 .myWork {
@@ -148,9 +165,11 @@ button {
 }
 
 .workGrid div h2 p {
+    font-size: 16px;
     grid-template-rows: 50% 50%;
     padding: 40px;
     margin: 40px;
+ 
 }
 
 
@@ -158,14 +177,15 @@ footer {
     font-family: 'Raleway', sans-serif;
     font-weight: 0,400;
     font-size: 18px;
-    color: darkslategray;
     background: rgb(255,255,255);
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.8025483630952381) 50%, rgba(255,255,255,0) 100%);
     background-size: 1%;
-    color: darkslategray;
+    color: black;
+
 }
 footer ul {
     display: inline-block;
     vertical-align: top;
     padding: 2%;
+
 }
